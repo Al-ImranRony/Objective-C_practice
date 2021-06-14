@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FAB57FE22675E8FB0050E36A /* baseClass.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB57FE12675E8FB0050E36A /* baseClass.m */; };
+		FAB57FEC26761ED30050E36A /* calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB57FEB26761ED30050E36A /* calculator.m */; };
 		FAF96AB0267202BB0077C35D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF96AAF267202BB0077C35D /* main.m */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +25,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		FAB57FE12675E8FB0050E36A /* baseClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = baseClass.m; sourceTree = "<group>"; };
+		FAB57FE42675E9920050E36A /* baseClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = baseClass.h; sourceTree = "<group>"; };
+		FAB57FEB26761ED30050E36A /* calculator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = calculator.m; sourceTree = "<group>"; };
+		FAB57FEF26761EE70050E36A /* calculator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = calculator.h; sourceTree = "<group>"; };
 		FAF96AAC267202BB0077C35D /* obj_C_practice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = obj_C_practice; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAF96AAF267202BB0077C35D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -41,6 +47,10 @@
 		FAF96AA3267202BB0077C35D = {
 			isa = PBXGroup;
 			children = (
+				FAB57FEF26761EE70050E36A /* calculator.h */,
+				FAB57FEB26761ED30050E36A /* calculator.m */,
+				FAB57FE42675E9920050E36A /* baseClass.h */,
+				FAB57FE12675E8FB0050E36A /* baseClass.m */,
 				FAF96AAE267202BB0077C35D /* obj_C_practice */,
 				FAF96AAD267202BB0077C35D /* Products */,
 			);
@@ -119,6 +129,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAF96AB0267202BB0077C35D /* main.m in Sources */,
+				FAB57FEC26761ED30050E36A /* calculator.m in Sources */,
+				FAB57FE22675E8FB0050E36A /* baseClass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
